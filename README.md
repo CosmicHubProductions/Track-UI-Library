@@ -61,3 +61,13 @@ Cheats:CreateColorPicker("Picker", Color3.new(255, 255, 255), function(value)
 print(value)
 end)
 ```
+─────────────────────
+# Curious how to use the library?
+In order to make a script using this UI library, you have to do these steps.
+
+1. At the first line of your script insert the Library loadstring.
+2. Create a window using the preset.
+3. Add a section to the window with the preset.
+4. Create a button or anything of your choice, remember to change Main in the beggining of the preset to what you set the name of your Window. In the presets it's just Main, you don't need to change that.
+
+After you've done everything your script hub should now be good to go!
