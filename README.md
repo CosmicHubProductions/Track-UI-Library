@@ -45,3 +45,19 @@ Main:CreateDropdown("DropDown", {"Hello", "World", "Hello World"}, 2, function(t
 print(text)
 end)
 ```
+─────────────────────
+
+Creating a slider.
+```
+Main:CreateSlider("Slider", 0, 100, 15, false, function(value)
+print(value)
+ end)
+```
+─────────────────────
+
+Creating a color picker.
+```
+Cheats:CreateColorPicker("Picker", Color3.new(255, 255, 255), function(value)
+print(value)
+end)
+```
