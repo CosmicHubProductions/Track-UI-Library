@@ -10,3 +10,8 @@ Loading the library.
 ```
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/CosmicHubProductions/Track-UI-Library/refs/heads/main/lua.txt"))()
 ```
+─────────────────────
+Creating a window.
+```
+local MainWindow = Library:NewWindow("Main")
+```
