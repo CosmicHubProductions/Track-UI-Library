@@ -20,3 +20,10 @@ Creating a section.
 ```
 local Section = MainWindow:NewSection("Section")
 ```
+─────────────────────
+Creating a button.
+```
+Button:CreateButton("Button", function()
+print("HI")
+end)
+```
