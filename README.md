@@ -27,7 +27,7 @@ local Section = MainWindow:NewSection("Section")
 
 Creating a button.
 ```
-Button:CreateButton("Button", function()
+Main:CreateButton("Button", function()
 print("HI")
 end)
 ```
@@ -35,7 +35,15 @@ end)
 
 Creating a textbox.
 ```
-Textbox:CreateTextbox("TextBox", function(text)
+Main:CreateTextbox("TextBox", function(text)
         print(text)
+end)
+```
+─────────────────────
+
+Creating a dropdown.
+```
+Main:CreateDropdown("DropDown", {"Hello", "World", "Hello World"}, 2, function(text)
+print(text)
 end)
 ```
