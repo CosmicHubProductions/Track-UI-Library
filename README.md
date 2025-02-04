@@ -3,7 +3,7 @@ The best and the most simple UI Library for roblox exploits!
 
 I've decided to make my own UI Library for people who wish to make script hubs on roblox!
 
-─────────────────────
+# Elements of the library.
 
 Loading the library.
 ```
@@ -61,7 +61,7 @@ Section:CreateColorPicker("Picker", Color3.new(255, 255, 255), function(value)
 print(value)
 end)
 ```
-─────────────────────
+
 # Curious how to use the library?
 In order to make a script using this UI library, you have to do these steps.
 
