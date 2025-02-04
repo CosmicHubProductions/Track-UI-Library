@@ -25,7 +25,7 @@ local Section = MainWindow:NewSection("Section")
 
 Creating a button.
 ```
-Main:CreateButton("Button", function()
+Section:CreateButton("Button", function()
 print("HI")
 end)
 ```
@@ -33,7 +33,7 @@ end)
 
 Creating a textbox.
 ```
-Main:CreateTextbox("TextBox", function(text)
+Section:CreateTextbox("TextBox", function(text)
         print(text)
 end)
 ```
@@ -41,7 +41,7 @@ end)
 
 Creating a dropdown.
 ```
-Main:CreateDropdown("DropDown", {"Hello", "World", "Hello World"}, 2, function(text)
+Section:CreateDropdown("DropDown", {"Hello", "World", "Hello World"}, 2, function(text)
 print(text)
 end)
 ```
@@ -49,7 +49,7 @@ end)
 
 Creating a slider.
 ```
-Main:CreateSlider("Slider", 0, 100, 15, false, function(value)
+Section:CreateSlider("Slider", 0, 100, 15, false, function(value)
 print(value)
  end)
 ```
@@ -57,7 +57,7 @@ print(value)
 
 Creating a color picker.
 ```
-Cheats:CreateColorPicker("Picker", Color3.new(255, 255, 255), function(value)
+Section:CreateColorPicker("Picker", Color3.new(255, 255, 255), function(value)
 print(value)
 end)
 ```
@@ -68,6 +68,6 @@ In order to make a script using this UI library, you have to do these steps.
 1. At the first line of your script insert the Library loadstring.
 2. Create a window using the preset.
 3. Add a section to the window with the preset.
-4. Create a button or anything of your choice, remember to change Main in the beggining of the preset to what you set the name of your Window. In the presets it's just Main, you don't need to change that.
+4. Create a button or anything of your choice, remember to change Main in the beggining of the preset to what you set the name of your Section. In the presets it's just Section, you don't need to change that.
 
 After you've done everything your script hub should now be good to go!
