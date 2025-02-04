@@ -15,3 +15,8 @@ Creating a window.
 ```
 local MainWindow = Library:NewWindow("Main")
 ```
+─────────────────────
+Creating a section.
+```
+local Section = MainWindow:NewSection("Section")
+```
